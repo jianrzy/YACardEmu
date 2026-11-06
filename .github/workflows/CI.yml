@@ -1,6 +1,8 @@
 name: GitHub CI
 # Taken from https://github.com/Cxbx-Reloaded/Cxbx-Reloaded
 on:
+  # Adds a "Run workflow" button to the Actions tab
+  workflow_dispatch:
   push:
     paths-ignore:
       - '.gitattributes'
